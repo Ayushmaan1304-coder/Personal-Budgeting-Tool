@@ -4,7 +4,9 @@
         "age": "21",
         "occupation": "IAS",
         "Income sources": {
-            "Salary":{"Monthly Income": "700000000"},
+            "Salary": {
+                "Monthly Income": "700000000"
+            },
             "Freelancing": {
                 "Field": "video editing",
                 "Monthly Income": "30000"
@@ -38,6 +40,27 @@
             "pizza": 3500,
             "bike": 70000,
             "Car": 1004500
+        }
+    },
+    "user2": {
+        "name": "Ayushmaan",
+        "age": "21",
+        "occupation": "IAS",
+        "Income sources": {
+            "Salary": {
+                "Monthly Income": 350000
+            },
+            "Freelancing": {
+                "Field": "video editing",
+                "Monthly Income": 34000
+            },
+            "Rental Income": {
+                "Monthly Income": 45000
+            }
+        },
+        "Expenses": {
+            "Food": 3500,
+            "Travel": 2500
         }
     }
 }

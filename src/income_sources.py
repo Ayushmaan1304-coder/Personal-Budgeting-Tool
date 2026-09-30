@@ -23,7 +23,7 @@ def income_calculator(user_id):
             case "Salary":
                 print("What is your salary per month?")
                 salary=int(input (("Enter your salary:")))
-                income_dictionary["Monthly Income"]={"Monthly income":salary}
+                income_dictionary["Salary"]={"Monthly Income":salary}
             case "Freelancing":
                 field=input("In what field you are doing freelancing, describe it for further recommendations:")    
                 Freelancing=int(input("How much are you able to earn from it per month?"))
