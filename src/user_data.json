@@ -1,0 +1,43 @@
+{
+    "user1": {
+        "name": "xyz",
+        "age": "21",
+        "occupation": "IAS",
+        "Income sources": {
+            "Salary":{"Monthly Income": "700000000"},
+            "Freelancing": {
+                "Field": "video editing",
+                "Monthly Income": "30000"
+            },
+            "Rental Income": {
+                "Monthly Income": "40000"
+            },
+            "Investment income": {
+                "Monthly Income": "60000"
+            },
+            "Royalty": {
+                "Source": "2000",
+                "Monthly Income": "2000"
+            },
+            "Pension": {
+                "Monthly Income": "45000"
+            },
+            "Side Business": {
+                "Business": "cake making",
+                "Monthly Income": "25000"
+            },
+            "Other": {
+                "Sources": [
+                    "stocks"
+                ],
+                "Monthly Income": 25000.0
+            }
+        },
+        "Expenses": {
+            "cake ": 2500,
+            "pizza": 3500,
+            "bike": 70000,
+            "Car": 1004500
+        }
+    }
+}
