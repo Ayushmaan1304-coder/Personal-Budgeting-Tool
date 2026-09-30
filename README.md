@@ -172,7 +172,25 @@ This project helped me apply and understand several core Python concepts through
 1. Make sure you have Python 3.10+
 2. Github and Git installed
 3. A code editor such as VS Code
+---
+### Follow these steps to run the Personal Budgeting Tool.
+---
 
+#### 1. Clone the Repository
+```text
+git clone https://github.com/Ayushmaan1304-coder/Personal-Budgeting-Tool.git
+```
+#### 2. Open the Project Folder
+```
+cd Personal Budgeting Tool
+```
+#### 4. Run the Program
+Run the main Python file:
+```
+python main.py
+```
+# Author
+**Ayushmaan Trivedi**
 
 
 

@@ -29,71 +29,7 @@ def income_calculator(user_id):
                 Freelancing=int(input("How much are you able to earn from it per month?"))
                 income_dictionary["Freelancing"]={"Field":field,
                                                 "Monthly Income":Freelancing}
-    #         case "Bank returns":
-    #             bank_returns={"1":"Interest on Fixed deposits",
-    #                         "2":"Interest on Savings Account",
-    #                         }
-    #             print(bank_returns)
-            
-    #             b=bank_returns[input("Enter your option:")]
-    #             match b:
-    #                 case "Interest on Fixed deposits":
-    #                     fd_interest= float(input("Enter the interest earned from your FD this month:" ))
-    #                     income_dictionary["Bank Returns"]={"Fixed Deposit":{"Monthly Income":fd_interest
-    #                                                                         }
-    #                                                        }
-                                                           
-                                                           
-                                           
-    # #                     principal_amount=float(input("Enter the prinicipal amount:"))
-    # #                     interest_rate=float(input("Enter the interest rate per(%) "))
-    # #                     x=input("Enter the fixed deposit start date:")
-    # #                     start_date=datetime.strptime(x,"%Y-%m-%d").date()
-    # #                     current_date=date.today()
-    # #                     time_passed= current_date-start_date
-    # #                     days_passed= time_passed.days
-    # #                     years= days_passed/365
-    # #                     print("Days Passed:",days_passed)
-    # #                     print("Approximate Years passed:",years)
-    # #                     rate=interest_rate/100
-    # #                     compounding_options={"1":("Annually",1),
-    # #                                         "2":("Half-Yearly",2),
-    # #                                         "3":("Quaterly",4),
-    # #                                         "4":("Monthly",12),}
-    # #                     print("\nHow is your FD interest compounded?")
-
-    # #                     for number, option in compounding_options.items():
-    # #                         print(number, option[0])
-
-    # #                     choice = input("Enter your option: ")
-
-    # #                     compounding_type, n = compounding_options[choice]
-    # #                     rate = interest_rate / 100
-    # #                     maturity_amount = principal_amount * (1 + rate / n) ** (n * years)
-    # #                     interest_earned = maturity_amount - principal_amount
-    # #                     income_dictionary["Bank Returns"] = {
-    # #     "Fixed Deposit": {
-    # #         "Principal": principal_amount,
-    # #         "Interest Rate": interest_rate,
-    # #         "Interest Earned": interest_earned,
-    # #         "Current Amount": maturity_amount
-    # #     }
-    # # }
-    # #                     print("Current FD Amount:", round(maturity_amount, 2))
-    # #                     print("\nCompounding:", compounding_type)
-    # #                     print("Interest Earned:", round(interest_earned, 2))
-                        
-    #                 case "Interest on Savings Account": #Later add here to caclculate the savings interest rather than asking directly
-    #                     savings_interest=float(input("Enter the intrerest earned from the savings account this month:"))
-    #                     income_dictionary["Bank Returns"] = {
-    #         "Savings Account": {"Monthly Income":savings_interest
-    #                             }
-    #     }
-                        
-    #                     # savings_interest_rate=input("Enter interest rate applicable on your savings account(%):")
-    #                     # rate2=savings_interest_rate/100
-    #                     # savings_interest_earned=
-
+    
             case "Rental income":
                 rent=int(input("Enter your rental income:"))
                 income_dictionary["Rental Income"] = {"Monthly Income":rent}
