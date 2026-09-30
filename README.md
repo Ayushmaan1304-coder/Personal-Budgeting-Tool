@@ -189,6 +189,19 @@ Run the main Python file:
 ```
 python main.py
 ```
+## 🚀 Future Enhancements
+
+- 📊 Add graphs and visualizations for income, expenses, and savings.
+- 📅 Introduce monthly and historical budget tracking.
+- 🎯 Add financial goals and progress tracking.
+- 💡 Provide smarter, personalized budgeting recommendations.
+- 🔐 Improve authentication and data security.
+- 🗄️ Replace JSON storage with a database such as SQLite.
+- 🖥️ Develop a graphical user interface (GUI).
+- 🤖 Integrate AI for intelligent financial insights.
+- 📄 Add PDF/CSV financial report generation.
+- ☁️ Explore cloud storage and web/mobile versions.
+
 # Author
 **Ayushmaan Trivedi**
 
